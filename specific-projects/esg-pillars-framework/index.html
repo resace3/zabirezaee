@@ -1,0 +1,455 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Interactive paper explorer for The Relative Importance of ESG Pillars by Mashayekhi, Asiaei, Rezaee, Jahangard, Samavat, and Homayoun.">
+  <title>ESG Pillars Framework | Zabihollah Rezaee</title>
+  <script>document.documentElement.classList.add("js");</script>
+  <link rel="stylesheet" href="/style.css">
+  <link rel="stylesheet" href="/rezaee.css">
+  <link rel="stylesheet" href="/projects.css">
+</head>
+<body class="rezaee-home project-page explorer-page esg-diagram-page">
+  <header class="site-header">
+    <nav class="nav" aria-label="Primary navigation">
+      <a class="brand-lockup" href="/" aria-label="Zabihollah Rezaee home">
+        <span class="brand-mark" aria-hidden="true"></span>
+        <span>Zabihollah Rezaee</span>
+      </a>
+
+      <div class="nav-links">
+        <a href="/#research">Research</a>
+        <a href="/#publications">Publications</a>
+        <a href="/#books">Books</a>
+        <a href="/#profile">Profile</a>
+        <a href="/#contact">Contact</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="paper-hero diagram-hero" aria-labelledby="paper-title">
+      <div class="project-container">
+        <div class="diagram-hero-content">
+          <p class="section-kicker">Interactive Paper Explorer</p>
+          <h1 id="paper-title">ESG Pillars Framework</h1>
+          <p class="paper-meta">Sustainable Development, 2024</p>
+          <div class="paper-actions">
+            <a class="button primary project-cta" href="https://doi.org/10.1002/sd.2979">Read Paper</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="paper-section two-step-framework-section" id="framework" aria-label="ESG pillars framework">
+      <div class="project-container">
+        <div class="two-step-framework" aria-label="ESG pillars framework two-step explainer">
+          <article class="method-card method-card-green" aria-labelledby="merec-title">
+            <div class="method-card-intro">
+              <div>
+                <p class="method-step-label">Step 1: MEREC</p>
+                <h3 id="merec-title">Set weights for ESG pillars and subcomponents</h3>
+              </div>
+              <p class="method-goal"><span>Goal</span>Which ESG factors matter most?</p>
+            </div>
+
+            <aside class="method-explanation" aria-label="MEREC explanation">
+              MEREC measures how much overall ESG performance changes when each pillar is removed. Bigger impact means higher weight.
+            </aside>
+
+            <div class="method-card-grid">
+              <ol class="method-timeline" aria-label="MEREC process">
+                <li>
+                  <span>1</span>
+                  <div>
+                    <h4>Collect ESG data</h4>
+                    <p>Gather ESG scores for firms across Environmental, Social, and Governance indicators.</p>
+                  </div>
+                </li>
+                <li>
+                  <span>2</span>
+                  <div>
+                    <h4>Measure impact</h4>
+                    <p>Remove one pillar at a time and measure the change in overall ESG performance.</p>
+                  </div>
+                </li>
+                <li>
+                  <span>3</span>
+                  <div>
+                    <h4>Compute weights</h4>
+                    <p>Convert the impact into weights. Bigger impact equals higher weight.</p>
+                  </div>
+                </li>
+                <li>
+                  <span>4</span>
+                  <div>
+                    <h4>Rank importance</h4>
+                    <p>Rank pillars and subcomponents by their calculated weights.</p>
+                  </div>
+                </li>
+              </ol>
+
+              <div class="method-examples" aria-label="MEREC example tables">
+                <figure class="mini-table-card">
+                  <figcaption>Example ESG Scores</figcaption>
+                  <table>
+                    <thead>
+                      <tr>
+                        <th scope="col">Firm</th>
+                        <th scope="col">Environmental (E)</th>
+                        <th scope="col">Social (S)</th>
+                        <th scope="col">Governance (G)</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <th scope="row">Firm A</th>
+                        <td>90</td>
+                        <td>70</td>
+                        <td>80</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">Firm B</th>
+                        <td>40</td>
+                        <td>75</td>
+                        <td>85</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">Firm C</th>
+                        <td>60</td>
+                        <td>65</td>
+                        <td>90</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </figure>
+
+                <figure class="mini-table-card">
+                  <figcaption>Impact of Removing Each Pillar</figcaption>
+                  <table>
+                    <thead>
+                      <tr>
+                        <th scope="col">Pillar Removed</th>
+                        <th scope="col">Change in Overall Score / Ranking</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <th scope="row">Environmental (E)</th>
+                        <td>Large</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">Social (S)</th>
+                        <td>Small</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">Governance (G)</th>
+                        <td>Medium</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </figure>
+
+                <figure class="mini-table-card compact-weight-table">
+                  <figcaption>Example MEREC Weights</figcaption>
+                  <table>
+                    <thead>
+                      <tr>
+                        <th scope="col">Pillar</th>
+                        <th scope="col">Weight</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <th scope="row">Environmental (E)</th>
+                        <td>0.50</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">Governance (G)</th>
+                        <td>0.30</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">Social (S)</th>
+                        <td>0.20</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </figure>
+              </div>
+            </div>
+
+            <p class="method-output">Output of Step 1: Weights for ESG pillars and subcomponents.</p>
+          </article>
+
+          <article class="method-card method-card-blue" aria-labelledby="kmeans-title">
+            <div class="method-card-intro">
+              <div>
+                <p class="method-step-label">Step 2: K-means Clustering</p>
+                <h3 id="kmeans-title">Group similar firms using weighted ESG profiles</h3>
+              </div>
+              <p class="method-goal"><span>Goal</span>Which firms are similar to each other?</p>
+            </div>
+
+            <aside class="method-explanation" aria-label="K-means explanation">
+              K-means groups firms into clusters so they can be compared with similar peers, not against everyone.
+            </aside>
+
+            <div class="method-card-grid">
+              <ol class="method-timeline" aria-label="K-means clustering process">
+                <li>
+                  <span>1</span>
+                  <div>
+                    <h4>Create weighted ESG profiles</h4>
+                    <p>Apply the MEREC weights from Step 1 to compute a weighted ESG score for each firm.</p>
+                  </div>
+                </li>
+                <li>
+                  <span>2</span>
+                  <div>
+                    <h4>Run K-means</h4>
+                    <p>Choose K and let the algorithm group firms with similar weighted ESG profiles.</p>
+                  </div>
+                </li>
+                <li>
+                  <span>3</span>
+                  <div>
+                    <h4>Get clusters</h4>
+                    <p>Firms in the same cluster have similar ESG patterns.</p>
+                  </div>
+                </li>
+                <li>
+                  <span>4</span>
+                  <div>
+                    <h4>Compare within clusters</h4>
+                    <p>Use clusters as peer groups for fair comparison and better decisions.</p>
+                  </div>
+                </li>
+              </ol>
+
+              <div class="method-examples" aria-label="K-means example data and clusters">
+                <figure class="mini-table-card">
+                  <figcaption>Example Weighted ESG Scores</figcaption>
+                  <table>
+                    <thead>
+                      <tr>
+                        <th scope="col">Firm</th>
+                        <th scope="col">E (0.50)</th>
+                        <th scope="col">S (0.20)</th>
+                        <th scope="col">G (0.30)</th>
+                        <th scope="col">Weighted Score</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <th scope="row">Firm A</th>
+                        <td>90</td>
+                        <td>70</td>
+                        <td>80</td>
+                        <td>83.0</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">Firm B</th>
+                        <td>40</td>
+                        <td>75</td>
+                        <td>85</td>
+                        <td>62.5</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">Firm C</th>
+                        <td>60</td>
+                        <td>65</td>
+                        <td>90</td>
+                        <td>70.0</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </figure>
+
+                <figure class="cluster-card">
+                  <figcaption>Example Clusters (K = 3)</figcaption>
+                  <div class="cluster-plot" role="img" aria-label="Scatterplot-style example of three ESG firm clusters">
+                    <span class="cluster-dot dot-green dot-1"></span>
+                    <span class="cluster-dot dot-green dot-2"></span>
+                    <span class="cluster-dot dot-green dot-3"></span>
+                    <span class="cluster-dot dot-blue dot-4"></span>
+                    <span class="cluster-dot dot-blue dot-5"></span>
+                    <span class="cluster-dot dot-blue dot-6"></span>
+                    <span class="cluster-dot dot-orange dot-7"></span>
+                    <span class="cluster-dot dot-orange dot-8"></span>
+                    <span class="cluster-dot dot-orange dot-9"></span>
+                  </div>
+                  <ul class="cluster-legend" aria-label="Cluster legend">
+                    <li><span class="legend-green"></span>Strong overall ESG</li>
+                    <li><span class="legend-blue"></span>Governance-strong, moderate overall</li>
+                    <li><span class="legend-orange"></span>Lower overall ESG</li>
+                  </ul>
+                </figure>
+
+                <figure class="mini-table-card">
+                  <figcaption>Example Cluster Results</figcaption>
+                  <table>
+                    <thead>
+                      <tr>
+                        <th scope="col">Cluster</th>
+                        <th scope="col">Firms</th>
+                        <th scope="col">Meaning</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <th scope="row">Cluster 1</th>
+                        <td>Firm A, Firm B</td>
+                        <td>Strong overall ESG</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">Cluster 2</th>
+                        <td>Firm C, Firm D</td>
+                        <td>Governance-strong, moderate overall</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">Cluster 3</th>
+                        <td>Firm E, Firm F</td>
+                        <td>Lower overall ESG</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </figure>
+              </div>
+            </div>
+
+            <p class="method-output">Output of Step 2: Groups of similar firms based on their ESG profiles.</p>
+          </article>
+
+          <aside class="big-picture-card">
+            <div>
+              <h3>The Big Picture</h3>
+              <p>Step 1 tells us what matters by assigning importance to ESG factors. Step 2 tells us who is similar, so comparisons are fair, relevant, and meaningful.</p>
+            </div>
+            <a class="button primary project-cta" href="https://doi.org/10.1002/sd.2979">Read the Full Paper</a>
+          </aside>
+        </div>
+      </div>
+    </section>
+
+    <section class="paper-section findings-section" id="findings" aria-labelledby="industry-title">
+      <div class="project-container">
+        <div class="diagram-demo-card">
+          <div class="comparison-copy">
+            <p class="section-kicker">Industry Comparison Demo</p>
+            <h2 id="industry-title">Illustrative ESG importance</h2>
+            <p>Illustrative demo values, not the live paper dataset.</p>
+            <label for="industry-select">Select an industry</label>
+            <select id="industry-select" class="industry-select">
+              <option value="manufacturing">Manufacturing</option>
+              <option value="finance">Financial Services</option>
+              <option value="technology">Technology</option>
+              <option value="healthcare">Healthcare</option>
+            </select>
+          </div>
+
+          <div class="chart-card compact-chart" aria-label="Illustrative demo values for ESG pillar importance">
+            <p class="demo-label">Illustrative demo values</p>
+            <div class="bar-row">
+              <span>Environmental</span>
+              <div class="bar-track"><span class="bar-fill environmental-bar"></span></div>
+              <strong id="environmental-value">44%</strong>
+            </div>
+            <div class="bar-row">
+              <span>Social</span>
+              <div class="bar-track"><span class="bar-fill social-bar"></span></div>
+              <strong id="social-value">28%</strong>
+            </div>
+            <div class="bar-row">
+              <span>Governance</span>
+              <div class="bar-track"><span class="bar-fill governance-bar"></span></div>
+              <strong id="governance-value">28%</strong>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="paper-section compact-explainer-section" aria-labelledby="explainer-title">
+      <div class="project-container">
+        <div class="section-heading project-section-heading">
+          <p class="section-kicker">In Brief</p>
+          <h2 id="explainer-title">The framework in three ideas</h2>
+        </div>
+
+        <div class="short-explainer-grid">
+          <article class="short-explainer-card">
+            <h3>What the paper asks</h3>
+            <p>Which ESG pillars matter most for sustainability performance? The framework avoids assuming that Environmental, Social, and Governance factors should always receive equal weight.</p>
+          </article>
+          <article class="short-explainer-card">
+            <h3>Why the framework matters</h3>
+            <p>ESG priorities can differ by firm, industry, and peer group. The method helps make those differences visible and easier to compare.</p>
+          </article>
+          <article class="short-explainer-card">
+            <h3>Who can use it</h3>
+            <p>Researchers, investors, managers, and policymakers can use the framework to discuss ESG materiality. It turns a broad ESG score into a more targeted decision tool.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="paper-section faq-section compact-faq-section" aria-labelledby="faq-title">
+      <div class="project-container">
+        <div class="section-heading project-section-heading">
+          <p class="section-kicker">FAQ</p>
+          <h2 id="faq-title">Expandable details</h2>
+        </div>
+
+        <div class="faq-list compact-faq-list">
+          <details>
+            <summary>Why not weight E, S, and G equally?</summary>
+            <p>Equal weights are simple, but they can hide industry and firm differences. The framework estimates which ESG dimensions appear more important in context.</p>
+          </details>
+          <details>
+            <summary>What does MEREC do?</summary>
+            <p>MEREC ranks criteria by estimating how much the assessment changes when each criterion is removed.</p>
+          </details>
+          <details>
+            <summary>Why use K-means clustering?</summary>
+            <p>K-means groups similar firms or industries so ESG priorities can be compared against more meaningful peer sets.</p>
+          </details>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer" id="contact">
+    <div class="footer-inner">
+      <div class="footer-brand">
+        <a class="brand-lockup footer-lockup" href="/" aria-label="Zabihollah Rezaee home">
+          <span class="brand-mark" aria-hidden="true"></span>
+          <span>Zabihollah Rezaee</span>
+        </a>
+        <p>Professor Emeritus and Thompson-Hill Chair of Excellence</p>
+        <p>University of Memphis</p>
+      </div>
+
+      <nav class="footer-nav" aria-label="Footer navigation">
+        <a href="/#research">Research</a>
+        <a href="/#publications">Publications</a>
+        <a href="/#books">Books</a>
+        <a href="/#profile">Profile</a>
+        <a href="/#contact">Contact</a>
+      </nav>
+
+      <address class="footer-contact">
+        <a href="mailto:zrezaee@memphis.edu">zrezaee@memphis.edu</a>
+        <span>Memphis, Tennessee, USA</span>
+      </address>
+    </div>
+
+    <div class="footer-bottom">
+      <p>&copy; 2024 Zabihollah Rezaee. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="/script.js"></script>
+  <script src="/projects.js"></script>
+</body>
+</html>

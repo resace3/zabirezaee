@@ -1,0 +1,20 @@
+.rezaee-home .feature-card,
+.rezaee-home .expertise-item,
+.rezaee-home .impact-card {
+  transition: transform 180ms ease, box-shadow 180ms ease, border-color 180ms ease;
+}
+
+.rezaee-home .feature-card::before {
+  transition: opacity 180ms ease;
+}
+
+.rezaee-home .feature-card:hover,
+.rezaee-home .expertise-item:hover {
+  border-color: rgba(21, 128, 61, 0.24);
+  box-shadow: 0 22px 58px rgba(8, 31, 58, 0.13);
+  transform: translateY(-4px);
+}
+
+.rezaee-home .feature-card:hover::before {
+  opacity: 1;
+}
