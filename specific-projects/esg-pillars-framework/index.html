@@ -42,10 +42,21 @@
       </div>
     </section>
 
+    <nav class="reader-nav" aria-label="Paper explorer sections">
+      <div class="project-container">
+        <a href="#step-1">Step 1</a>
+        <a href="#step-2">Step 2</a>
+        <a href="#big-picture">Big Picture</a>
+        <a href="#findings">Industry Demo</a>
+        <a href="#brief">In Brief</a>
+        <a href="#faq">FAQ</a>
+      </div>
+    </nav>
+
     <section class="paper-section two-step-framework-section" id="framework" aria-label="ESG pillars framework">
       <div class="project-container">
         <div class="two-step-framework" aria-label="ESG pillars framework two-step explainer">
-          <article class="method-card method-card-green" aria-labelledby="merec-title">
+          <article class="method-card method-card-green" id="step-1" aria-labelledby="merec-title">
             <div class="method-card-intro">
               <div>
                 <p class="method-step-label">Step 1: MEREC</p>
@@ -182,7 +193,7 @@
             <p class="method-output">Output of Step 1: Weights for ESG pillars and subcomponents.</p>
           </article>
 
-          <article class="method-card method-card-blue" aria-labelledby="kmeans-title">
+          <article class="method-card method-card-blue" id="step-2" aria-labelledby="kmeans-title">
             <div class="method-card-intro">
               <div>
                 <p class="method-step-label">Step 2: K-means Clustering</p>
@@ -321,7 +332,7 @@
             <p class="method-output">Output of Step 2: Groups of similar firms based on their ESG profiles.</p>
           </article>
 
-          <aside class="big-picture-card">
+          <aside class="big-picture-card" id="big-picture">
             <div>
               <h3>The Big Picture</h3>
               <p>Step 1 tells us what matters by assigning importance to ESG factors. Step 2 tells us who is similar, so comparisons are fair, relevant, and meaningful.</p>
@@ -370,7 +381,7 @@
       </div>
     </section>
 
-    <section class="paper-section compact-explainer-section" aria-labelledby="explainer-title">
+    <section class="paper-section compact-explainer-section" id="brief" aria-labelledby="explainer-title">
       <div class="project-container">
         <div class="section-heading project-section-heading">
           <p class="section-kicker">In Brief</p>
@@ -394,7 +405,7 @@
       </div>
     </section>
 
-    <section class="paper-section faq-section compact-faq-section" aria-labelledby="faq-title">
+    <section class="paper-section faq-section compact-faq-section" id="faq" aria-labelledby="faq-title">
       <div class="project-container">
         <div class="section-heading project-section-heading">
           <p class="section-kicker">FAQ</p>

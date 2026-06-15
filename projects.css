@@ -4030,3 +4030,662 @@
     font-size: clamp(2.25rem, 10vw, 2.85rem);
   }
 }
+
+/* Readability pass for the ESG paper explorer */
+.esg-diagram-page {
+  font-size: 18px;
+}
+
+.esg-diagram-page .nav {
+  min-height: 82px;
+}
+
+.esg-diagram-page .brand-lockup {
+  font-size: 1.25rem;
+}
+
+.esg-diagram-page .nav-links a {
+  padding: 8px 11px;
+  font-size: 1rem;
+}
+
+.esg-diagram-page .diagram-hero {
+  padding: clamp(32px, 4vw, 48px) 0;
+}
+
+.esg-diagram-page .diagram-hero-content {
+  max-width: 1040px;
+}
+
+.esg-diagram-page .paper-hero h1 {
+  max-width: 1040px;
+  margin-bottom: 14px;
+  font-size: clamp(2.45rem, 5vw, 4.35rem);
+  line-height: 1.02;
+}
+
+.esg-diagram-page .section-kicker {
+  font-size: 0.92rem;
+  letter-spacing: 0.06em;
+}
+
+.esg-diagram-page .paper-meta {
+  margin-bottom: 18px;
+  font-size: 1.18rem;
+  font-weight: 850;
+}
+
+.esg-diagram-page .paper-actions .button {
+  min-height: 50px;
+  padding: 13px 22px;
+  font-size: 1rem;
+}
+
+.esg-diagram-page .method-card {
+  padding: clamp(28px, 3.4vw, 44px);
+}
+
+.esg-diagram-page .method-step-label {
+  padding: 10px 15px;
+  font-size: 0.9rem;
+}
+
+.esg-diagram-page .method-card h3 {
+  font-size: clamp(2.25rem, 3.8vw, 3.9rem);
+  line-height: 1.05;
+}
+
+.esg-diagram-page .method-goal {
+  padding: 18px 20px;
+  font-size: 1.16rem;
+}
+
+.esg-diagram-page .method-goal span {
+  font-size: 0.86rem;
+}
+
+.esg-diagram-page .method-explanation {
+  padding: 20px 22px;
+  font-size: 1.2rem;
+  line-height: 1.55;
+}
+
+.esg-diagram-page .method-timeline li > span {
+  font-size: 1.15rem;
+}
+
+.esg-diagram-page .method-timeline li > div {
+  min-height: 118px;
+  padding: 21px;
+}
+
+.esg-diagram-page .method-timeline h4 {
+  font-size: 1.28rem;
+}
+
+.esg-diagram-page .method-timeline p {
+  font-size: 1.08rem;
+  line-height: 1.55;
+}
+
+.esg-diagram-page .mini-table-card,
+.esg-diagram-page .cluster-card {
+  padding: 22px;
+}
+
+.esg-diagram-page .mini-table-card figcaption,
+.esg-diagram-page .cluster-card figcaption {
+  font-size: 1.22rem;
+}
+
+.esg-diagram-page .mini-table-card table {
+  font-size: 1rem;
+}
+
+.esg-diagram-page .mini-table-card th,
+.esg-diagram-page .mini-table-card td {
+  padding: 12px 13px;
+}
+
+.esg-diagram-page .mini-table-card thead th {
+  font-size: 0.88rem;
+}
+
+.esg-diagram-page .cluster-legend {
+  font-size: 1.02rem;
+}
+
+.esg-diagram-page .method-output {
+  padding: 18px 22px;
+  font-size: 1.08rem;
+}
+
+.esg-diagram-page .big-picture-card h3 {
+  font-size: clamp(2.1rem, 3.2vw, 3.1rem);
+}
+
+.esg-diagram-page .big-picture-card p:last-child {
+  font-size: 1.18rem;
+}
+
+.esg-diagram-page .diagram-demo-card h2 {
+  font-size: clamp(2.1rem, 3.2vw, 3rem);
+}
+
+.esg-diagram-page .diagram-demo-card .comparison-copy p,
+.esg-diagram-page .comparison-copy label {
+  font-size: 1.1rem;
+}
+
+.esg-diagram-page .industry-select {
+  font-size: 1.12rem;
+}
+
+.esg-diagram-page .chart-card {
+  gap: 20px;
+  padding: 28px;
+}
+
+.esg-diagram-page .bar-row {
+  grid-template-columns: 160px minmax(0, 1fr) 64px;
+}
+
+.esg-diagram-page .bar-row span,
+.esg-diagram-page .bar-row strong {
+  font-size: 1.12rem;
+}
+
+.esg-diagram-page .short-explainer-card h3 {
+  font-size: 1.65rem;
+}
+
+.esg-diagram-page .short-explainer-card p {
+  font-size: 1.12rem;
+}
+
+.esg-diagram-page .compact-faq-list summary {
+  font-size: 1.08rem;
+}
+
+.esg-diagram-page .compact-faq-list p {
+  font-size: 1.05rem;
+}
+
+.esg-diagram-page .site-footer p,
+.esg-diagram-page .site-footer a,
+.esg-diagram-page .site-footer span {
+  font-size: 1rem;
+}
+
+@media (max-width: 620px) {
+  .esg-diagram-page {
+    font-size: 16.5px;
+  }
+
+  .esg-diagram-page .paper-hero h1 {
+    font-size: 2.45rem;
+  }
+
+  .esg-diagram-page .method-card h3 {
+    font-size: 2.15rem;
+  }
+
+  .esg-diagram-page .method-explanation,
+  .esg-diagram-page .method-timeline p,
+  .esg-diagram-page .short-explainer-card p {
+    font-size: 1rem;
+  }
+
+  .esg-diagram-page .mini-table-card table {
+    font-size: 0.88rem;
+  }
+
+  .esg-diagram-page .bar-row {
+    grid-template-columns: 1fr;
+    gap: 8px;
+  }
+
+  .esg-diagram-page .bar-row strong {
+    justify-self: start;
+  }
+}
+
+/* Large guided reader mode for the ESG explorer */
+.esg-diagram-page {
+  font-size: 22px;
+}
+
+.reader-nav {
+  position: sticky;
+  top: 82px;
+  z-index: 14;
+  border-top: 1px solid rgba(207, 231, 215, 0.72);
+  border-bottom: 1px solid rgba(207, 231, 215, 0.86);
+  background: rgba(255, 255, 255, 0.88);
+  backdrop-filter: blur(16px) saturate(1.06);
+}
+
+.reader-nav .project-container {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  overflow-x: auto;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  scrollbar-width: none;
+}
+
+.reader-nav .project-container::-webkit-scrollbar {
+  display: none;
+}
+
+.reader-nav a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 46px;
+  padding: 10px 17px;
+  border: 1px solid rgba(21, 128, 61, 0.2);
+  border-radius: 999px;
+  color: var(--navy);
+  background: rgba(255, 255, 255, 0.82);
+  box-shadow: 0 10px 24px rgba(8, 31, 58, 0.055);
+  font-size: 1rem;
+  font-weight: 950;
+  line-height: 1;
+  text-decoration: none;
+  white-space: nowrap;
+  transition: transform 160ms ease, border-color 160ms ease, background 160ms ease, color 160ms ease;
+}
+
+.reader-nav a:hover,
+.reader-nav a:focus-visible {
+  color: var(--white);
+  border-color: var(--green);
+  background: var(--green);
+  transform: translateY(-1px);
+}
+
+.esg-diagram-page #step-1,
+.esg-diagram-page #step-2,
+.esg-diagram-page #big-picture,
+.esg-diagram-page #findings,
+.esg-diagram-page #brief,
+.esg-diagram-page #faq {
+  scroll-margin-top: 160px;
+}
+
+.esg-diagram-page .diagram-hero {
+  padding: clamp(46px, 5vw, 72px) 0;
+}
+
+.esg-diagram-page .diagram-hero-content {
+  max-width: 1160px;
+}
+
+.esg-diagram-page .paper-hero h1 {
+  max-width: 1160px;
+  margin-bottom: 18px;
+  font-size: clamp(3.4rem, 7.4vw, 6.8rem);
+  letter-spacing: 0;
+  line-height: 0.96;
+}
+
+.esg-diagram-page .section-kicker {
+  font-size: 1.05rem;
+}
+
+.esg-diagram-page .paper-meta {
+  margin-bottom: 24px;
+  font-size: 1.5rem;
+}
+
+.esg-diagram-page .paper-actions .button {
+  min-height: 58px;
+  padding: 16px 28px;
+  font-size: 1.12rem;
+}
+
+.esg-diagram-page .two-step-framework {
+  gap: clamp(38px, 4vw, 54px);
+}
+
+.esg-diagram-page .method-card {
+  padding: clamp(36px, 4vw, 58px);
+  border-radius: 42px;
+}
+
+.esg-diagram-page .method-card-grid {
+  grid-template-columns: minmax(390px, 0.88fr) minmax(0, 1.12fr);
+  gap: clamp(30px, 4vw, 46px);
+}
+
+.esg-diagram-page .method-card-intro {
+  gap: 28px;
+  margin-bottom: 28px;
+}
+
+.esg-diagram-page .method-step-label {
+  padding: 13px 18px;
+  font-size: 1.06rem;
+}
+
+.esg-diagram-page .method-card h3 {
+  font-size: clamp(3rem, 5.4vw, 5.35rem);
+  line-height: 1.02;
+}
+
+.esg-diagram-page .method-goal {
+  min-width: min(100%, 360px);
+  padding: 24px 26px;
+  border-radius: 28px;
+  font-size: 1.45rem;
+  line-height: 1.35;
+}
+
+.esg-diagram-page .method-goal span {
+  font-size: 1rem;
+}
+
+.esg-diagram-page .method-explanation {
+  margin-bottom: 34px;
+  padding: 26px 30px;
+  border-radius: 28px;
+  font-size: 1.48rem;
+  line-height: 1.56;
+}
+
+.esg-diagram-page .method-timeline {
+  gap: 24px;
+}
+
+.esg-diagram-page .method-timeline::before {
+  left: 32px;
+}
+
+.esg-diagram-page .method-timeline li {
+  grid-template-columns: 68px minmax(0, 1fr);
+  gap: 20px;
+}
+
+.esg-diagram-page .method-timeline li > span {
+  width: 66px;
+  height: 66px;
+  border-radius: 22px;
+  font-size: 1.48rem;
+}
+
+.esg-diagram-page .method-timeline li > div {
+  min-height: 146px;
+  padding: 28px;
+  border-radius: 28px;
+}
+
+.esg-diagram-page .method-timeline h4 {
+  margin-bottom: 11px;
+  font-size: 1.72rem;
+  line-height: 1.14;
+}
+
+.esg-diagram-page .method-timeline p {
+  font-size: 1.32rem;
+  line-height: 1.55;
+}
+
+.esg-diagram-page .method-examples {
+  gap: 22px;
+}
+
+.esg-diagram-page .mini-table-card,
+.esg-diagram-page .cluster-card {
+  padding: 28px;
+  border-radius: 28px;
+}
+
+.esg-diagram-page .mini-table-card figcaption,
+.esg-diagram-page .cluster-card figcaption {
+  margin-bottom: 18px;
+  font-size: 1.56rem;
+}
+
+.esg-diagram-page .mini-table-card table {
+  min-width: 620px;
+  font-size: 1.22rem;
+}
+
+.esg-diagram-page .mini-table-card th,
+.esg-diagram-page .mini-table-card td {
+  padding: 16px 17px;
+}
+
+.esg-diagram-page .mini-table-card thead th {
+  font-size: 1.02rem;
+}
+
+.esg-diagram-page .cluster-plot {
+  min-height: 290px;
+}
+
+.esg-diagram-page .cluster-dot {
+  width: 18px;
+  height: 18px;
+}
+
+.esg-diagram-page .cluster-legend {
+  gap: 13px;
+  font-size: 1.22rem;
+}
+
+.esg-diagram-page .method-output {
+  margin-top: 34px;
+  padding: 22px 28px;
+  border-radius: 24px;
+  font-size: 1.35rem;
+  text-align: left;
+}
+
+.esg-diagram-page .big-picture-card {
+  padding: clamp(34px, 4vw, 50px);
+  border-radius: 38px;
+}
+
+.esg-diagram-page .big-picture-card h3 {
+  font-size: clamp(2.9rem, 4.5vw, 4.4rem);
+}
+
+.esg-diagram-page .big-picture-card p:last-child {
+  font-size: 1.4rem;
+}
+
+.esg-diagram-page .big-picture-card .button {
+  min-height: 58px;
+  padding: 16px 24px;
+  font-size: 1.1rem;
+}
+
+.esg-diagram-page .diagram-demo-card {
+  grid-template-columns: minmax(360px, 0.58fr) minmax(0, 1fr);
+  gap: 38px;
+  padding: clamp(34px, 4vw, 48px);
+  border-radius: 36px;
+}
+
+.esg-diagram-page .diagram-demo-card h2,
+.esg-diagram-page .project-section-heading h2 {
+  font-size: clamp(2.75rem, 4.2vw, 4rem);
+}
+
+.esg-diagram-page .diagram-demo-card .comparison-copy p,
+.esg-diagram-page .comparison-copy label {
+  font-size: 1.32rem;
+}
+
+.esg-diagram-page .industry-select {
+  min-height: 66px;
+  padding: 15px 18px;
+  font-size: 1.3rem;
+}
+
+.esg-diagram-page .chart-card {
+  gap: 26px;
+  padding: 34px;
+  border-radius: 30px;
+}
+
+.esg-diagram-page .demo-label {
+  min-height: 42px;
+  padding: 10px 16px;
+  font-size: 1rem;
+}
+
+.esg-diagram-page .bar-row {
+  grid-template-columns: 190px minmax(0, 1fr) 82px;
+  gap: 18px;
+}
+
+.esg-diagram-page .bar-track {
+  height: 24px;
+}
+
+.esg-diagram-page .bar-row span,
+.esg-diagram-page .bar-row strong {
+  font-size: 1.36rem;
+}
+
+.esg-diagram-page .short-explainer-grid {
+  gap: 24px;
+}
+
+.esg-diagram-page .short-explainer-card {
+  padding: 32px;
+  border-radius: 30px;
+}
+
+.esg-diagram-page .short-explainer-card h3 {
+  font-size: 2rem;
+}
+
+.esg-diagram-page .short-explainer-card p {
+  font-size: 1.32rem;
+  line-height: 1.58;
+}
+
+.esg-diagram-page .compact-faq-list summary {
+  min-height: 102px;
+  font-size: 1.28rem;
+}
+
+.esg-diagram-page .compact-faq-list p {
+  font-size: 1.2rem;
+}
+
+@media (max-width: 1120px) {
+  .esg-diagram-page .method-card-grid,
+  .esg-diagram-page .diagram-demo-card {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 820px) {
+  .reader-nav {
+    position: static;
+  }
+
+  .reader-nav .project-container {
+    width: min(calc(100% - 28px), var(--max-width));
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+}
+
+@media (max-width: 620px) {
+  .esg-diagram-page {
+    font-size: 18px;
+  }
+
+  .reader-nav a {
+    min-height: 42px;
+    padding: 9px 14px;
+    font-size: 0.94rem;
+  }
+
+  .esg-diagram-page .paper-hero h1 {
+    font-size: clamp(3rem, 12vw, 3.75rem);
+  }
+
+  .esg-diagram-page .paper-meta {
+    font-size: 1.22rem;
+  }
+
+  .esg-diagram-page .method-card {
+    padding: 24px;
+    border-radius: 30px;
+  }
+
+  .esg-diagram-page .method-card h3 {
+    font-size: clamp(2.65rem, 10vw, 3.15rem);
+  }
+
+  .esg-diagram-page .method-goal,
+  .esg-diagram-page .method-explanation {
+    font-size: 1.15rem;
+  }
+
+  .esg-diagram-page .method-timeline::before {
+    left: 23px;
+  }
+
+  .esg-diagram-page .method-timeline li {
+    grid-template-columns: 50px minmax(0, 1fr);
+    gap: 13px;
+  }
+
+  .esg-diagram-page .method-timeline li > span {
+    width: 48px;
+    height: 48px;
+    border-radius: 16px;
+    font-size: 1.1rem;
+  }
+
+  .esg-diagram-page .method-timeline li > div {
+    min-height: auto;
+    padding: 18px;
+  }
+
+  .esg-diagram-page .method-timeline h4 {
+    font-size: 1.34rem;
+  }
+
+  .esg-diagram-page .method-timeline p,
+  .esg-diagram-page .short-explainer-card p {
+    font-size: 1.05rem;
+  }
+
+  .esg-diagram-page .mini-table-card,
+  .esg-diagram-page .cluster-card,
+  .esg-diagram-page .chart-card,
+  .esg-diagram-page .short-explainer-card {
+    padding: 20px;
+  }
+
+  .esg-diagram-page .mini-table-card table {
+    min-width: 560px;
+    font-size: 1rem;
+  }
+
+  .esg-diagram-page .mini-table-card figcaption,
+  .esg-diagram-page .cluster-card figcaption {
+    font-size: 1.28rem;
+  }
+
+  .esg-diagram-page .method-output,
+  .esg-diagram-page .big-picture-card p:last-child,
+  .esg-diagram-page .diagram-demo-card .comparison-copy p,
+  .esg-diagram-page .comparison-copy label {
+    font-size: 1.08rem;
+  }
+
+  .esg-diagram-page .bar-row {
+    grid-template-columns: 1fr;
+  }
+}
