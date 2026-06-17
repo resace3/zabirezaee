@@ -1,0 +1,270 @@
+window.rezaeeResearchAreas = {
+  auditing: {
+    title: "Auditing",
+    route: "/research/auditing/",
+    description: "Audit quality, audit reporting, assurance, and audit committee oversight.",
+    tags: ["Audit Quality", "Audit Committees", "Assurance", "Oversight"],
+    publications: [],
+    books: [
+      {
+        title: "Audit Committee Formation, Volume I",
+        meta: "Business Expert Press, 2016",
+        description: "Structure and Roles",
+        url: "https://www.businessexpertpress.com/books/audit-committee-formation-in-the-aftermath-of-the-2007-2009-global-financial-crisis-volume-i-structure-and-roles/",
+      },
+      {
+        title: "Audit Committee Formation, Volume II",
+        meta: "Business Expert Press, 2016",
+        description: "Responsibilities and Sustainability",
+        url: "https://www.businessexpertpress.com/books/audit-committee-formation-in-the-aftermath-of-the-2007-2009-global-financial-crisis-volume-ii-responsibilities-and-sustainability/",
+      },
+      {
+        title: "Audit Committee Formation, Volume III",
+        meta: "Business Expert Press, 2016",
+        description: "Emerging Issues",
+        url: "https://www.businessexpertpress.com/books/audit-committee-formation-in-the-aftermath-of-2007-2009-global-financial-crisis-volume-iii-emerging-issues/",
+      },
+      {
+        title: "Audit Committee Oversight Effectiveness Post-Sarbanes-Oxley Act",
+        meta: "BNA / Bloomberg Tax, 2006",
+        description: "Audit committee oversight and governance effectiveness",
+        url: "https://pro.bloombergtax.com/portfolios/audit-committee-oversight-effectiveness-post-sarbanes-oxley-5401/",
+      },
+      {
+        title: "U.S. Master Auditing Guide",
+        meta: "CCH, 2004",
+        description: "Third Edition",
+        url: "https://digitalcommons.odu.edu/accounting_books/3/",
+      },
+    ],
+    projects: [],
+    profile: [],
+  },
+  "corporate-governance": {
+    title: "Corporate Governance",
+    route: "/research/corporate-governance/",
+    description: "Board effectiveness, ownership, governance mechanisms, ethics, and accountability.",
+    tags: ["Boards", "Accountability", "Governance Mechanisms", "Shareholders"],
+    publications: [],
+    books: [
+      {
+        title: "Corporate Governance",
+        meta: "Routledge, 2025",
+        description: "A Guide for Students",
+        url: "https://www.routledge.com/Corporate-Governance-A-Guide-for-Students/Rezaee/p/book/9781032782607",
+      },
+      {
+        title: "Corporate Governance and Ethics",
+        meta: "Wiley, 2009",
+        description: "Governance, accountability, and ethical business conduct",
+        url: "https://openlibrary.org/works/OL11611676W/Corporate_governance_and_ethics",
+      },
+      {
+        title: "Corporate Governance Post-Sarbanes-Oxley",
+        meta: "Wiley, 2007",
+        description: "Regulations, Requirements, and Integrated Processes",
+        url: "https://openlibrary.org/works/OL8225191W/Corporate_Governance_Post-Sarbanes-Oxley",
+      },
+      {
+        title: "Corporate Governance in the Aftermath of the Global Financial Crisis, Volume I",
+        meta: "Business Expert Press, 2018",
+        description: "Relevance and Reforms",
+        url: "https://www.businessexpertpress.com/books/corporate-governance-in-the-aftermath-of-the-global-financial-crisis-volume-i-relevance-and-reforms/",
+      },
+      {
+        title: "Corporate Governance in the Aftermath of the Global Financial Crisis, Volume II",
+        meta: "Business Expert Press, 2018",
+        description: "Functions and Sustainability",
+        url: "https://www.businessexpertpress.com/books/corporate-governance-in-the-aftermath-of-the-global-financial-crisis-volume-ii-functions-and-sustainability/",
+      },
+      {
+        title: "Corporate Governance in the Aftermath of the Global Financial Crisis, Volume III",
+        meta: "Business Expert Press, 2018",
+        description: "Gatekeeper Functions",
+        url: "https://www.businessexpertpress.com/books/corporate-governance-in-the-aftermath-of-the-global-financial-crisis-volume-iii-gatekeeper-functions/",
+      },
+      {
+        title: "Corporate Governance in the Aftermath of the Global Financial Crisis, Volume IV",
+        meta: "Business Expert Press, 2018",
+        description: "Emerging Issues in Corporate Governance",
+        url: "https://www.businessexpertpress.com/books/corporate-governance-in-the-aftermath-of-the-global-financial-crisis-volume-iv-emerging-issues-in-corporate-governance/",
+      },
+      {
+        title: "Business Sustainability, Corporate Governance, and Organizational Ethics",
+        meta: "Wiley, 2019",
+        description: "Textbook on sustainability, governance, and ethics",
+        url: "https://openlibrary.org/works/OL21212866W/Business_Sustainability_Corporate_Governance_and_Organizational_Ethics",
+      },
+    ],
+    projects: [],
+    profile: [],
+  },
+  "forensic-accounting": {
+    title: "Forensic Accounting",
+    route: "/research/forensic-accounting/",
+    description: "Fraud examination, detection, litigation support, and financial statement fraud.",
+    tags: ["Fraud", "Financial Statement Fraud", "Detection", "Litigation Support"],
+    publications: [],
+    books: [
+      {
+        title: "Forensic Accounting and Financial Statement Fraud, Volume I",
+        meta: "Business Expert Press, 2019",
+        description: "Fundamentals of Forensic Accounting",
+        url: "https://www.businessexpertpress.com/books/forensic-accounting-and-financial-statement-fraud-volume-i-fundamentals-of-forensic-accounting/",
+      },
+      {
+        title: "Forensic Accounting and Financial Statement Fraud, Volume II",
+        meta: "Business Expert Press, 2019",
+        description: "Forensic Accounting Performance",
+        url: "https://www.businessexpertpress.com/books/forensic-accounting-and-financial-statement-fraud-volume-ii-forensic-accounting-performance/",
+      },
+      {
+        title: "Financial Statement Fraud",
+        meta: "Wiley, 2010",
+        description: "Prevention and Detection, Second Edition",
+        url: "https://openlibrary.org/works/OL18793311W/Financial_statement_fraud",
+      },
+      {
+        title: "Financial Statement Fraud",
+        meta: "Wiley, 2002",
+        description: "Prevention and Detection",
+        url: "https://openlibrary.org/works/OL8225193W/Financial_Statement_Fraud",
+      },
+    ],
+    projects: [],
+    profile: [],
+  },
+  ethics: {
+    title: "Ethics",
+    route: "/research/ethics/",
+    description: "Professional ethics, integrity, ethical decision-making, and organizational accountability.",
+    tags: ["Professional Ethics", "Integrity", "Accountability", "Corporate Conduct"],
+    publications: [],
+    books: [
+      {
+        title: "Corporate Governance and Ethics",
+        meta: "Wiley, 2009",
+        description: "Governance, accountability, and ethical business conduct",
+        url: "https://openlibrary.org/works/OL11611676W/Corporate_governance_and_ethics",
+      },
+      {
+        title: "Business Sustainability, Corporate Governance, and Organizational Ethics",
+        meta: "Wiley, 2019",
+        description: "Textbook on sustainability, governance, and ethics",
+        url: "https://openlibrary.org/works/OL21212866W/Business_Sustainability_Corporate_Governance_and_Organizational_Ethics",
+      },
+    ],
+    projects: [],
+    profile: [
+      {
+        title: "Academic Profile",
+        meta: "University of Memphis",
+        description: "Professor Emeritus and Thompson-Hill Chair of Excellence, with scholarship spanning ethics, auditing, governance, forensic accounting, and business sustainability.",
+        url: "/profile/",
+      },
+    ],
+  },
+  sustainability: {
+    title: "Sustainability",
+    route: "/research/sustainability/",
+    description: "Environmental, social, and governance reporting, performance, risk, and assurance.",
+    tags: ["ESG", "Sustainability Reporting", "Integrated Reporting", "Risk", "Assurance"],
+    publications: [
+      {
+        title: "The Relative Importance of ESG Pillars",
+        meta: "Sustainable Development, 2024",
+        authors: "Mashayekhi, Asiaei, Rezaee, Jahangard, Samavat, and Homayoun",
+        description: "Interactive project record for a paper on ESG pillar importance and a two-step analytical framework.",
+        url: "https://doi.org/10.1002/sd.2979",
+      },
+      {
+        title: "Business Sustainability Performance and Cost of Equity Capital",
+        meta: "Journal of Corporate Finance, 2015",
+        authors: "Anthony C. Ng and Zabihollah Rezaee",
+        description: "Interactive project record on sustainability signals, capital-market risk, and equity financing costs.",
+        url: "https://digitalcommons.memphis.edu/facpubs/10836/",
+      },
+    ],
+    books: [
+      {
+        title: "Business Sustainability Framework",
+        meta: "Routledge, 2025",
+        description: "Theory and Practice",
+        url: "https://www.routledge.com/Business-Sustainability-Framework-Theory-and-Practice/Rezaee/p/book/9781032782676",
+      },
+      {
+        title: "The Sustainable Business Blueprint",
+        meta: "Routledge, 2025",
+        description: "Planning, Performance, Risk, Reporting, and Assurance",
+        url: "https://www.routledge.com/The-Sustainable-Business-Blueprint-Planning-Performance-Risk-Reporting-and-Assurance/Rezaee/p/book/9781032571270",
+      },
+      {
+        title: "Business Sustainability",
+        meta: "Routledge, 2015",
+        description: "Performance, Compliance, Accountability and Integrated Reporting",
+        url: "https://www.routledge.com/Business-Sustainability-Performance-Compliance-Accountability-and-Integrated-Reporting/Rezaee/p/book/9781783535040",
+      },
+      {
+        title: "Business Sustainability Factors",
+        meta: "Business Expert Press, 2021",
+        description: "Performance, Risk, and Disclosure",
+        url: "https://www.businessexpertpress.com/books/business-sustainability-factors-of-performance-risk-and-disclosure/",
+      },
+      {
+        title: "Corporate Sustainability",
+        meta: "Wiley, 2012",
+        description: "Integrating Performance and Reporting",
+        url: "https://digitalcommons.memphis.edu/facpubs/10869/",
+      },
+    ],
+    projects: [
+      {
+        title: "ESG Pillars Framework",
+        meta: "Interactive Paper Explorer",
+        description: "A visual framework page explaining ESG pillar importance, MEREC weighting, and K-means clustering.",
+        url: "/specific-projects/esg-pillars-framework/",
+      },
+      {
+        title: "Business Sustainability & Cost of Equity",
+        meta: "Interactive Research Dashboard",
+        description: "A dashboard-style page explaining sustainability performance, sample construction, and cost of equity analysis.",
+        url: "/specific-projects/sustainability-cost-of-equity/",
+      },
+    ],
+    profile: [],
+  },
+  "sustainable-ai": {
+    title: "Sustainable AI",
+    route: "/research/sustainable-ai/",
+    description: "Research tools and interfaces that make accounting and sustainability scholarship easier to understand.",
+    tags: ["AI", "Machine Learning", "Research Interfaces", "Data Visualization", "Digital Scholarship"],
+    publications: [
+      {
+        title: "The Relative Importance of ESG Pillars",
+        meta: "Sustainable Development, 2024",
+        authors: "Mashayekhi, Asiaei, Rezaee, Jahangard, Samavat, and Homayoun",
+        description: "Existing site project record with a machine-learning analytical framework for ESG pillar importance.",
+        url: "https://doi.org/10.1002/sd.2979",
+      },
+    ],
+    books: [
+      {
+        title: "AI for Sustainable Business",
+        meta: "Routledge, 2026",
+        description: "Leveraging Technology for a Better Future",
+        url: "https://www.routledge.com/AI-for-Sustainable-Business-Leveraging-Technology-for-a-Better-Future/Rezaee-Boumediene-Homayoun-Boumediene/p/book/9781032987309",
+      },
+    ],
+    projects: [
+      {
+        title: "ESG Pillars Framework",
+        meta: "Interactive Paper Explorer",
+        description: "A public-facing research interface for ESG pillar weighting and peer-group comparison.",
+        url: "/specific-projects/esg-pillars-framework/",
+      },
+    ],
+    profile: [],
+  },
+};
+
+// TODO: Add verified journal-article records here when a structured publication data source is added to the repository.
