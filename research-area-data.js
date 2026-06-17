@@ -2,8 +2,8 @@ window.rezaeeResearchAreas = {
   auditing: {
     title: "Auditing",
     route: "/research/auditing/",
-    description: "Audit quality, audit reporting, assurance, and audit committee oversight.",
-    tags: ["Audit Quality", "Audit Committees", "Assurance", "Oversight"],
+    description: "AI-enabled continuous auditing, continuous assurance, audit quality, internal controls, risk assessment, and financial reporting reliability.",
+    tags: ["AI-Enabled Auditing", "Continuous Assurance", "Internal Controls", "Risk Assessment"],
     publications: [],
     books: [
       {
@@ -43,8 +43,8 @@ window.rezaeeResearchAreas = {
   "corporate-governance": {
     title: "Corporate Governance",
     route: "/research/corporate-governance/",
-    description: "Board effectiveness, ownership, governance mechanisms, ethics, and accountability.",
-    tags: ["Boards", "Accountability", "Governance Mechanisms", "Shareholders"],
+    description: "Board effectiveness, audit committees, ethical accountability, governance mechanisms, investor protection, and sustainable value creation.",
+    tags: ["Boards", "Audit Committees", "Accountability", "Sustainable Value"],
     publications: [],
     books: [
       {
@@ -102,8 +102,8 @@ window.rezaeeResearchAreas = {
   "forensic-accounting": {
     title: "Forensic Accounting",
     route: "/research/forensic-accounting/",
-    description: "Fraud examination, detection, litigation support, and financial statement fraud.",
-    tags: ["Fraud", "Financial Statement Fraud", "Detection", "Litigation Support"],
+    description: "Fraud examination, anomaly detection, litigation support, expert witnessing, financial statement fraud, and forensic applications of AI.",
+    tags: ["Fraud", "Anomaly Detection", "Financial Statement Fraud", "Expert Witnessing"],
     publications: [],
     books: [
       {
@@ -137,8 +137,8 @@ window.rezaeeResearchAreas = {
   ethics: {
     title: "Ethics",
     route: "/research/ethics/",
-    description: "Professional ethics, integrity, ethical decision-making, and organizational accountability.",
-    tags: ["Professional Ethics", "Integrity", "Accountability", "Corporate Conduct"],
+    description: "Professional ethics, organizational integrity, ethical decision-making, accountability, transparency, and public trust.",
+    tags: ["Professional Ethics", "Integrity", "Transparency", "Public Trust"],
     publications: [],
     books: [
       {
@@ -159,7 +159,7 @@ window.rezaeeResearchAreas = {
       {
         title: "Academic Profile",
         meta: "University of Memphis",
-        description: "Professor Emeritus and Thompson-Hill Chair of Excellence, with scholarship spanning ethics, auditing, governance, forensic accounting, and business sustainability.",
+        description: "Visiting Professor of AI, Business Sustainability, and Corporate Governance at Corvinus University of Budapest; Thompson-Hill Chair of Excellence and Emeritus Professor of Accounting at the University of Memphis.",
         url: "/profile/",
       },
     ],
@@ -167,21 +167,21 @@ window.rezaeeResearchAreas = {
   sustainability: {
     title: "Sustainability",
     route: "/research/sustainability/",
-    description: "Environmental, social, and governance reporting, performance, risk, and assurance.",
-    tags: ["ESG", "Sustainability Reporting", "Integrated Reporting", "Risk", "Assurance"],
+    description: "Business sustainability, ESG reporting, sustainability assurance, climate disclosure, stakeholder accountability, and long-term value creation.",
+    tags: ["Business Sustainability", "ESG Reporting", "Sustainability Assurance", "Climate Disclosure", "Long-Term Value"],
     publications: [
       {
         title: "The Relative Importance of ESG Pillars",
         meta: "Sustainable Development, 2024",
         authors: "Mashayekhi, Asiaei, Rezaee, Jahangard, Samavat, and Homayoun",
-        description: "Interactive project record for a paper on ESG pillar importance and a two-step analytical framework.",
+        description: "Interactive project record for a paper on ESG pillar importance, sustainability performance, and a two-step analytical framework.",
         url: "https://doi.org/10.1002/sd.2979",
       },
       {
         title: "Business Sustainability Performance and Cost of Equity Capital",
         meta: "Journal of Corporate Finance, 2015",
         authors: "Anthony C. Ng and Zabihollah Rezaee",
-        description: "Interactive project record on sustainability signals, capital-market risk, and equity financing costs.",
+        description: "Interactive project record on business sustainability signals, capital-market risk, and equity financing costs.",
         url: "https://digitalcommons.memphis.edu/facpubs/10836/",
       },
     ],
@@ -236,14 +236,14 @@ window.rezaeeResearchAreas = {
   "sustainable-ai": {
     title: "Sustainable AI",
     route: "/research/sustainable-ai/",
-    description: "Research tools and interfaces that make accounting and sustainability scholarship easier to understand.",
-    tags: ["AI", "Machine Learning", "Research Interfaces", "Data Visualization", "Digital Scholarship"],
+    description: "AI-enabled auditing, business analytics, autonomous assurance technologies, predictive analytics, natural language processing, and data-driven governance oversight.",
+    tags: ["AI-Enabled Assurance", "Machine Learning", "Business Analytics", "Research Interfaces", "Digital Scholarship"],
     publications: [
       {
         title: "The Relative Importance of ESG Pillars",
         meta: "Sustainable Development, 2024",
         authors: "Mashayekhi, Asiaei, Rezaee, Jahangard, Samavat, and Homayoun",
-        description: "Existing site project record with a machine-learning analytical framework for ESG pillar importance.",
+        description: "Existing site project record with a machine-learning analytical framework for ESG pillar importance and AI-enabled sustainability scholarship.",
         url: "https://doi.org/10.1002/sd.2979",
       },
     ],
@@ -259,7 +259,7 @@ window.rezaeeResearchAreas = {
       {
         title: "ESG Pillars Framework",
         meta: "Interactive Paper Explorer",
-        description: "A public-facing research interface for ESG pillar weighting and peer-group comparison.",
+        description: "A public-facing research interface for ESG pillar weighting, peer-group comparison, and AI-enabled sustainability analysis.",
         url: "/specific-projects/esg-pillars-framework/",
       },
     ],
