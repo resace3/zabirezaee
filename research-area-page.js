@@ -101,7 +101,7 @@
     }
   };
 
-  document.title = `${data.title} | Research | Zabihollah Rezaee`;
+  document.title = `${data.title} | Research | Zabi Rezaee`;
   setText("#area-title", data.title);
   setText("#area-description", data.description);
 

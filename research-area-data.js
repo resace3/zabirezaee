@@ -180,7 +180,7 @@ window.rezaeeResearchAreas = {
       {
         title: "Business Sustainability Performance and Cost of Equity Capital",
         meta: "Journal of Corporate Finance, 2015",
-        authors: "Anthony C. Ng and Zabihollah Rezaee",
+        authors: "Anthony C. Ng and Zabi Rezaee",
         description: "Interactive project record on business sustainability signals, capital-market risk, and equity financing costs.",
         url: "https://digitalcommons.memphis.edu/facpubs/10836/",
       },
